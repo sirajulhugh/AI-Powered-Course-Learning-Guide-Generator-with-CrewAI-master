@@ -5,6 +5,16 @@ import browser_use
 import asyncio
 from dotenv import load_dotenv
 import os
+import sys
+import importlib
+
+try:
+    import pysqlite3
+    sys.modules["sqlite3"] = pysqlite3
+    sys.modules["sqlite3.dbapi2"] = pysqlite3.dbapi2
+except ImportError:
+    raise RuntimeError("pysqlite3-binary not installed. Add it to requirements.txt.")
+
 
 load_dotenv()
 
