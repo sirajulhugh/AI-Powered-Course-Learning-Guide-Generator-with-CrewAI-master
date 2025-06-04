@@ -1,0 +1,90 @@
+course_curriculum_task:
+  description: >
+    Create a comprehensive curriculum structure for {course_name} course.
+    Break down the course into logical modules, topics, and subtopics.
+    Consider the {skill_level} level and {duration} timeframe.
+  expected_output: >
+    A detailed curriculum outline with modules, topics, estimated time for each section,
+    and learning objectives. Include beginner to advanced progression for {course_name}.
+  agent: course_curriculum_agent
+
+learning_timeline_task:
+  description: >
+    Create an optimal learning schedule for {duration} duration.
+    Consider daily/weekly study time, breaks, revision periods, and project time.
+  expected_output: >
+    A day-by-day or week-by-week learning schedule that covers the entire {course_name}
+    curriculum within {duration}. Include time allocations for theory, practice, and projects.
+  agent: learning_timeline_agent
+
+resource_curation_task:
+  description: >
+    Find and recommend the best learning resources for {course_name}.
+    Include free and paid options, prioritizing quality and current relevance.
+  expected_output: >
+    A curated list of learning resources including online courses, YouTube channels,
+    books, documentation, tutorials, and practice platforms for {course_name}.
+  agent: resource_curator_agent
+
+project_recommendation_task:
+  description: >
+    Recommend hands-on projects for {course_name} at {skill_level} level.
+    Projects should progress from simple to complex and build a portfolio.
+  expected_output: >
+    A list of progressive projects for {course_name}, from beginner to advanced,
+    with descriptions, technologies used, and learning outcomes for each project.
+  agent: project_recommendation_agent
+
+skill_assessment_task:
+  description: >
+    Design assessment methods and milestones for tracking progress in {course_name}.
+    Include quizzes, coding challenges, and practical assessments.
+  expected_output: >
+    A comprehensive assessment plan with weekly/monthly milestones, quiz topics,
+    coding challenges, and practical assessments to track {course_name} learning progress.
+  agent: skill_assessment_agent
+
+career_pathway_task:
+  description: >
+    Provide career guidance and next steps after completing {course_name}.
+    Include job roles, salary expectations, and additional skills needed.
+  expected_output: >
+    Career pathway guide showing potential job roles after learning {course_name},
+    salary ranges, required additional skills, and recommended next courses.
+  agent: career_pathway_agent
+
+prerequisites_analysis_task:
+  description: >
+    Identify and recommend prerequisite knowledge for {course_name}.
+    Assess what learners should know before starting and suggest prep materials.
+  expected_output: >
+    Prerequisites analysis for {course_name} including required foundational knowledge,
+    recommended preparatory courses, and assessment of readiness level.
+  agent: prerequisites_analysis_agent
+
+study_strategy_task:
+  description: >
+    Create personalized study strategies based on the {duration} timeframe.
+    Include techniques for retention, practice schedules, and time management.
+  expected_output: >
+    Personalized study strategy guide with daily/weekly routines, retention techniques,
+    practice schedules, and time management tips for learning {course_name} in {duration}.
+  agent: study_strategy_agent
+
+community_engagement_task:
+  description: >
+    Recommend communities, forums, and networking opportunities for {course_name}.
+    Include Discord servers, Reddit communities, Stack Overflow tags, and professional groups.
+  expected_output: >
+    Community engagement guide with links to relevant Discord servers, Reddit communities,
+    Stack Overflow tags, GitHub communities, and professional networks for {course_name}.
+  agent: community_engagement_agent
+
+certification_guidance_task:
+  description: >
+    Recommend relevant certifications and validation methods for {course_name}.
+    Include industry-recognized certifications, portfolio requirements, and validation strategies.
+  expected_output: >
+    Certification roadmap for {course_name} including recommended certifications,
+    portfolio development guidance, and skill validation strategies.
+  agent: certification_guidance_agent
